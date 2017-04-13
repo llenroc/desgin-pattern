@@ -3,6 +3,7 @@ using DesignPattern.Creational.Builder;
 using DesignPattern.Creational.Factory;
 using DesignPattern.Creational.Prototype;
 using DesignPattern.Creational.Singleton;
+using DesignPattern.Structural.Bridge;
 using DesignPattern.Structural.Proxy;
 using System;
 
@@ -16,6 +17,7 @@ namespace DesignPattern
             Builder,
             Prototype,
             Singleton,
+            Bridge,
             Proxy,
             Strategy
         }
@@ -45,6 +47,9 @@ namespace DesignPattern
                     break;
                 case (int)DesignPatternType.Singleton:
                     SingletonProgram.Work();
+                    break;
+                case (int)DesignPatternType.Bridge:
+                    BridgeProgram.Work();
                     break;
                 case (int)DesignPatternType.Proxy:
                     ProxyProgram.Work();
