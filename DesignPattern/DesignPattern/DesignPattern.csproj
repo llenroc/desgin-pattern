@@ -43,12 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\Strategy\CalculateClient.cs" />
+    <Compile Include="Behavioral\Strategy\ICalculate.cs" />
+    <Compile Include="Behavioral\Strategy\StrategyProgram.cs" />
+    <Compile Include="Behavioral\Strategy\Minus.cs" />
+    <Compile Include="Behavioral\Strategy\Plus.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Structural\Proxy\Car.cs" />
     <Compile Include="Structural\Proxy\Driver.cs" />
     <Compile Include="Structural\Proxy\ICar.cs" />
-    <Compile Include="Structural\Proxy\MainProgram.cs" />
+    <Compile Include="Structural\Proxy\ProxyProgram.cs" />
     <Compile Include="Structural\Proxy\ProxyCar.cs" />
   </ItemGroup>
   <ItemGroup>

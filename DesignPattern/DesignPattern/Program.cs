@@ -1,14 +1,18 @@
-﻿using DesignPattern.Structural.Proxy;
+﻿using DesignPattern.Behavioral.Strategy;
+using DesignPattern.Structural.Proxy;
+using System;
 
 namespace DesignPattern
 {
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {
             // Proxy
-            MainProgram program = new MainProgram();
-            program.Main();
+            ProxyProgram.Work();
+
+            // Strategy
+            StrategyProgram.Work();
         }
     }
 }
