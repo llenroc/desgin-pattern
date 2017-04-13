@@ -65,6 +65,11 @@
     <Compile Include="Creational\Factory\PersonFactory.cs" />
     <Compile Include="Creational\Factory\Villager.cs" />
     <Compile Include="Creational\Factory\VillagerAbstractFactory.cs" />
+    <Compile Include="Creational\Prototype\Bread.cs" />
+    <Compile Include="Creational\Prototype\Milk.cs" />
+    <Compile Include="Creational\Prototype\ProductPrototype.cs" />
+    <Compile Include="Creational\Prototype\PrototypeProgram.cs" />
+    <Compile Include="Creational\Prototype\Supermarket.cs" />
     <Compile Include="Creational\Singleton\ConfigurationManager.cs" />
     <Compile Include="Creational\Singleton\SingletonProgram.cs" />
     <Compile Include="Program.cs" />
@@ -80,7 +85,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioral\Observer\" />
-    <Folder Include="Creational\Prototype\" />
     <Folder Include="Structural\Bridge\" />
     <Folder Include="Structural\Composite\" />
     <Folder Include="Structural\Decorator\" />

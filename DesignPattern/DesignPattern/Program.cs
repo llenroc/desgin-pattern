@@ -1,6 +1,7 @@
 ﻿using DesignPattern.Behavioral.Strategy;
 using DesignPattern.Creational.Builder;
 using DesignPattern.Creational.Factory;
+using DesignPattern.Creational.Prototype;
 using DesignPattern.Creational.Singleton;
 using DesignPattern.Structural.Proxy;
 using System;
@@ -13,6 +14,7 @@ namespace DesignPattern
         {
             Factory,
             Builder,
+            Prototype,
             Singleton,
             Proxy,
             Strategy
@@ -37,6 +39,9 @@ namespace DesignPattern
                     break;
                 case (int)DesignPatternType.Builder:
                     BuilderProgram.Work();
+                    break;
+                case (int)DesignPatternType.Prototype:
+                    PrototypeProgram.Work();
                     break;
                 case (int)DesignPatternType.Singleton:
                     SingletonProgram.Work();
