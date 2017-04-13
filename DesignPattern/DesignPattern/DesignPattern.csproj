@@ -48,6 +48,15 @@
     <Compile Include="Behavioral\Strategy\StrategyProgram.cs" />
     <Compile Include="Behavioral\Strategy\Minus.cs" />
     <Compile Include="Behavioral\Strategy\Plus.cs" />
+    <Compile Include="Creational\Factory\CityPerson.cs" />
+    <Compile Include="Creational\Factory\FactoryProgram.cs" />
+    <Compile Include="Creational\Factory\IPerson.cs" />
+    <Compile Include="Creational\Factory\CityPersonAbstractFactory.cs" />
+    <Compile Include="Creational\Factory\PersonAbstractFactory.cs" />
+    <Compile Include="Creational\Factory\PersonType.cs" />
+    <Compile Include="Creational\Factory\PersonFactory.cs" />
+    <Compile Include="Creational\Factory\Villager.cs" />
+    <Compile Include="Creational\Factory\VillagerAbstractFactory.cs" />
     <Compile Include="Creational\Signleton\ConfigurationManager.cs" />
     <Compile Include="Creational\Signleton\SingletonProgram.cs" />
     <Compile Include="Program.cs" />
