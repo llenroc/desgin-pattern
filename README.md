@@ -5,4 +5,5 @@ http://khainx.com/design-pattern-proxy/ <br>
 <br>
 
 <b>References:</b><br>
-https://en.wikipedia.org
+https://en.wikipedia.org <br>
+https://csharpdesignpatterns.codeplex.com

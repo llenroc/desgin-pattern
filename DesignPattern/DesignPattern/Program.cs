@@ -1,4 +1,5 @@
 ﻿using DesignPattern.Behavioral.Strategy;
+using DesignPattern.Creational.Builder;
 using DesignPattern.Creational.Factory;
 using DesignPattern.Creational.Signleton;
 using DesignPattern.Structural.Proxy;
@@ -11,6 +12,7 @@ namespace DesignPattern
         enum DesignPatternType
         {
             Factory,
+            Builder,
             Singleton,
             Proxy,
             Strategy
@@ -32,6 +34,9 @@ namespace DesignPattern
             {
                 case (int)DesignPatternType.Factory:
                     FactoryProgram.Work();
+                    break;
+                case (int)DesignPatternType.Builder:
+                    BuilderProgram.Work();
                     break;
                 case (int)DesignPatternType.Singleton:
                     SingletonProgram.Work();
