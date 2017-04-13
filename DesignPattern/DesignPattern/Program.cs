@@ -1,7 +1,7 @@
 ﻿using DesignPattern.Behavioral.Strategy;
 using DesignPattern.Creational.Builder;
 using DesignPattern.Creational.Factory;
-using DesignPattern.Creational.Signleton;
+using DesignPattern.Creational.Singleton;
 using DesignPattern.Structural.Proxy;
 using System;
 

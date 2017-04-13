@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPattern.Creational.Signleton
+namespace DesignPattern.Creational.Singleton
 {
     public sealed class ConfigurationManager
     {

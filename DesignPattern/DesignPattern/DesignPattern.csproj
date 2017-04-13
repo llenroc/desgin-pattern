@@ -65,8 +65,8 @@
     <Compile Include="Creational\Factory\PersonFactory.cs" />
     <Compile Include="Creational\Factory\Villager.cs" />
     <Compile Include="Creational\Factory\VillagerAbstractFactory.cs" />
-    <Compile Include="Creational\Signleton\ConfigurationManager.cs" />
-    <Compile Include="Creational\Signleton\SingletonProgram.cs" />
+    <Compile Include="Creational\Singleton\ConfigurationManager.cs" />
+    <Compile Include="Creational\Singleton\SingletonProgram.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Structural\Proxy\Car.cs" />
