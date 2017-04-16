@@ -17,7 +17,6 @@ namespace DesignPattern.Behavioral.Strategy
 
             Console.WriteLine("Plus: " + client.Calculate(7, 1));
 
-
             Console.WriteLine();
         }
     }
